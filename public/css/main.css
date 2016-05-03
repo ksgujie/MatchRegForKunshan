@@ -1,0 +1,77 @@
+@charset "utf-8";
+/*
++-----------------------------
+| 后台主体内容样式
++-----------------------------
+*/
+
+/* 全局 */
+body { font:16px/100% arial,\5b8b\4f53; }
+
+th { text-align:left; }
+input, select, button { 
+	vertical-align:middle; 
+		font-family: "雅黑";
+		font-size: 16px;
+		border: 1px solid #DFDFDF;
+		padding:5px;
+	}
+}
+
+a:link,a:visited { color:#006600; text-decoration:none; }
+a:hover { text-decoration:underline; color:#FF6600; }
+
+.block { display:block; }
+.none { display:none; }
+
+/* 颜色 */
+.color_red { color:#FF0000; }
+
+/* 主体外围 */
+#main_body { padding:9px 15px 15px; }
+
+/* 主体头部 */
+.top { padding: 10px 20px 15px 0; }
+.top .title { font-size:16px; }
+
+.top .title, .tb th { font-weight:bold; color:#090; }
+
+/* 表格 */
+.td_w30 { width:30px; }
+.td_w80 { width:80px; }
+.td_w120 { width:120px; }
+.td_w160 { width:160px; }
+.td_w300 { width:300px; }
+.td_w400 { width:400px; }
+.td_w500 { width:500px; }
+.td_w600 { width:600px; }
+
+.td_vertical_align_top { vertical-align:top; }
+
+.tb { clear:both; width:100%; }
+.tb th, .tb td { height:25px; padding:5px; }
+.tb th { border-bottom:1px solid #CBE6BD; background-color:#EFF4E9; font-size:18px; }
+.tb td { border-top:1px dotted #CBE6BD; font-size:16px; }
+
+.td_font_bold, .role_control_setting_title { font-weight:bold; }
+
+/* 表单 */
+.ipt_w30 { width:30px; } 
+.ipt_w100 { width:100px; } 
+.ipt_w200 { width:200px; } 
+.ipt_w300 { width:300px; } 
+.ipt_w400 { width:400px; } 
+.ipt_w500 { width:500px; } 
+.ipt_w600 { width:600px; } 
+
+.ipt { border-color:#6B8E23 #9ACD32 #9ACD32 #6B8E23; border-style:solid; border-width:1px; height:18px; padding:3px; }
+.btn { margin:3px 0; padding:2px 5px; *padding:4px 5px 1px; border:1px solid; border-color:#DDD #666 #666 #DDD; background:#DDD; color:#000; cursor:pointer; }
+	/*.btn:hover { text-decoration: none; }*/
+	
+.slt_h26 { height:26px; }
+
+.slt { padding:3px; border-color:#6B8E23 #9ACD32 #9ACD32 #6B8E23; border-style:solid; border-width:1px; }
+
+/* 角色权限管理 */
+.role_control_setting_title { line-height:22px; }
+.role_control_setting li { float:left; border-right:1px dotted #CBE6BD; width:200px; margin-right:10px; line-height:22px; }

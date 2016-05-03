@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+
+/*
++-----------------------------
+| 后台样式
++-----------------------------
+*/
+/** { word-wrap:break-word; outline:none; }*/
+html, body { margin:0; padding:0; overflow:hidden; }
+body { font:16px/100% arial,\5b8b\4f53; }
+a:link,a:visited { color:#006600; text-decoration:none; }
+a:hover { text-decoration:underline; color:#FF6600; }
+
+.block { display:block; }
+.none { display:none; }
+
+/* 顶部 */
+#top { background-color:#009900; border-bottom:3px solid #3AB500; color:white; height:40px; line-height:40px; padding:0 10px; }
+#top em { display:inline-block;  font-size:24px;  vertical-align:middle; }
+#top .user { display:inline-block;  font-size:24px;font-weight:bold;  vertical-align:middle; }
+#top em a { color:#99F; text-decoration:none; color:#FFF; }
+#top span a { color:#FFFFFF; }
+
+/* 左菜单 */
+#left { position:absolute; width:180px; background-color:#EFF4E9; overflow:scroll; }
+.menu_box { padding:10px; }
+    .menu_block { line-height:1.4; }
+	.menu_block h3 { background:url("../images/menu_minus.gif") no-repeat 0 50%; padding-left:16px; cursor:pointer; color:#009900; }
+	.menu_block h3.close { background:url("../images/menu_plus.gif") no-repeat 0 50%; }
+	.menu_block ul { margin:3px; padding-left:10px; }
+	.menu_block ul li { background:url("../images/menu_arrow.gif") no-repeat 0 50%; padding-left:16px; }
+	.menu_block ul li a.cur { color:#FF6600; }
+
+/* 右边主体 */
+#right { padding-left:180px; }
+#right iframe { width:100%; overflow:visible; }

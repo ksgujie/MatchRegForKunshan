@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*
++-----------------------------
+| 后台[登陆]样式
++-----------------------------
+*/
+
+body {  background-color:#009900; }
+a:link,a:visited { color:#006600; text-decoration:none; }
+a:hover { text-decoration:underline; color:#FF6600; }
+
+.block { display:block; }
+.none { display:none; }
+
+/* 登陆 */
+/* 登陆 */
+#login_wrap { width:300px; margin:auto ; text-align:center; color:#FFF; }
+    #login_wrap h1 { height:36px; line-height:36px; margin-bottom:20px; font-size:36px; font-weight:bold; font-style:italic; }
+	    #login_wrap h1 a { color:#FFFFFF; text-decoration:none; }
